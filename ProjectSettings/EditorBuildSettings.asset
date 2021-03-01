@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Face Tracking Physics.unity
+    guid: 2b09bd97eca114825a1dc44c74f76ecb
   m_configObjects: {}
