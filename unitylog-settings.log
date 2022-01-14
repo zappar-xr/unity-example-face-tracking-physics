@@ -17,11 +17,11 @@ Entitlement-based licensing initiated
 [LicensingClient] Licenses Updated successfully in LicensingClient
 [Licensing::Module] Serial number assigned to: "SB-PBF7-KAEQ-53XU-28WX-XXXX"\nPro License: YES
 
-LICENSE SYSTEM [20211220 17:23:41] Next license update check is after 2020-06-26T15:06:05
+LICENSE SYSTEM [2022113 17:16:40] Next license update check is after 2020-06-26T15:06:05
 
 
-LICENSE SYSTEM [20211220 17:23:41] Current license is already valid and activated. Skipping license activation process (Provided username/password will be ignored).
-[Package Manager] Server::Start -- Port 58161 was selected
+LICENSE SYSTEM [2022113 17:16:40] Current license is already valid and activated. Skipping license activation process (Provided username/password will be ignored).
+[Package Manager] Server::Start -- Port 52191 was selected
 Launching external process: /Applications/Unity/Hub/Editor/2019.4.33f1/Unity.app/Contents/Resources/PackageManager/Server/UnityPackageManager
 
 COMMAND LINE ARGUMENTS:
@@ -45,7 +45,7 @@ Successfully changed project path to: /Users/zapparadmin/builds/7fcaf854/0/visio
 /Users/zapparadmin/builds/7fcaf854/0/vision/zappar-unity-examples/build/face-tracking-physics
 Using Asset Import Pipeline V2.
 DisplayProgressbar: Unity Package Manager
-Adding genesis user token [Package Manager] Done resolving packages in 0.61s seconds
+Adding genesis user token [Package Manager] Done resolving packages in 0.64s seconds
 [Package Manager] Done checking package constraints in 0.00s seconds
 [Package Manager] 
 Registered 42 packages:
@@ -97,8 +97,8 @@ Registered 42 packages:
 
 [Subsystems] No new subsystems found in resolved package list.
 [Package Manager] Done registering packages in 0.03s seconds
-Refreshing native plugins compatible for Editor in 30.21 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 2.33 ms.
+Refreshing native plugins compatible for Editor in 30.18 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 2.32 ms.
 Initialize engine version: 2019.4.33f1 (c9b2b02eeeef)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2019.4.33f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/zapparadmin/builds/7fcaf854/0/vision/zappar-unity-examples/build/face-tracking-physics/Assets
@@ -112,15 +112,15 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2019.4.33f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2019.4.33f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2019.4.33f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56381
-ImportWorker Server TCP listen port: 58167
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56750
+ImportWorker Server TCP listen port: 52198
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2019.4.33f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2019.4.33f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2019.4.33f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2019.4.33f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.024035 seconds.
+Registered in 0.024039 seconds.
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
@@ -128,29 +128,29 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 26.09 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.41 ms.
+Refreshing native plugins compatible for Editor in 26.00 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.42 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.507 seconds
+- Completed reload, in  1.502 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1536ms)
+	ReloadAssembly (1532ms)
 		BeginReloadAssembly (35ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (610ms)
+		EndReloadAssembly (606ms)
 			LoadAssemblies (34ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (184ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (326ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (323ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (204ms)
+				InitializePlatformSupportModulesInManaged (202ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (27ms)
+				RefreshPlugins (26ms)
 				BeforeProcessingInitializeOnLoad (4ms)
 				ProcessInitializeOnLoadAttributes (82ms)
 				ProcessInitializeOnLoadMethodAttributes (9ms)
@@ -159,41 +159,41 @@ Domain Reload Profiling:
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Registering precompiled user dll's ...
-Registered in 0.038076 seconds.
+Registered in 0.038211 seconds.
 Platform modules already initialized, skipping
-Validating Project structure ... 0.000396 seconds.
+Validating Project structure ... 0.000401 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.000609 seconds.
+Upgrading shader files ...0.000617 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.40 ms.
+Preloading 1 native plugins for Editor in 0.41 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.955 seconds
+- Completed reload, in  0.954 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1000ms)
-		BeginReloadAssembly (65ms)
+	ReloadAssembly (999ms)
+		BeginReloadAssembly (66ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (1ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (860ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (858ms)
 			LoadAssemblies (52ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (316ms)
+			SetupTypeCache (317ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (367ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (365ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (38ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (249ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (248ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
@@ -201,18 +201,18 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (1ms)
 Platform modules already initialized, skipping
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions)
-RefreshProfiler: Total: 1325.341ms
-	InvokeBeforeRefreshCallbacks: 0.124ms
-	ApplyChangesToAssetFolders: 0.047ms
+RefreshProfiler: Total: 1324.625ms
+	InvokeBeforeRefreshCallbacks: 0.129ms
+	ApplyChangesToAssetFolders: 0.048ms
 	WriteModifiedImportersToTextMetaFiles: 0.000ms
 	CleanLegacyArtifacts: 0.000ms
-	Scan: 19.558ms
+	Scan: 19.730ms
 	OnSourceAssetsModified: 0.000ms
 	UnregisterDeletedAssets: 0.000ms
-	InitializeImportedAssetsSnapshot: 0.161ms
-	GetAllGuidsForCategorization: 0.126ms
-	CategorizeAssets: 26.508ms
-	ImportAndPostprocessOutOfDateAssets: 1272.247ms (1271.829ms without children)
+	InitializeImportedAssetsSnapshot: 0.165ms
+	GetAllGuidsForCategorization: 0.141ms
+	CategorizeAssets: 27.091ms
+	ImportAndPostprocessOutOfDateAssets: 1270.753ms (1270.330ms without children)
 		ImportManagerImport: 0.000ms (0.000ms without children)
 			ImportInProcess: 0.000ms
 			ImportOutOfProcess: 0.000ms
@@ -224,40 +224,40 @@ RefreshProfiler: Total: 1325.341ms
 		PostProcessAllAssets: 0.000ms
 		ReloadImportedAssets: 0.000ms
 		VerifyAssetsAreUpToDateAndCorrect: 0.000ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.144ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.142ms
 		InitializingProgressBar: 0.000ms
-		PostProcessAllAssetNotificationsAddChangedAssets: 0.142ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.141ms
 		OnDemandSchedulerStart: 0.000ms
-		RestoreLoadedAssetsState: 0.132ms
+		RestoreLoadedAssetsState: 0.139ms
 	InvokeProjectHasChanged: 0.000ms
 	UpdateImportedAssetsSnapshot: 0.000ms
-	ReloadSourceAssets: 0.370ms
+	ReloadSourceAssets: 0.382ms
 	UnloadImportedAssets: 0.003ms
-	Hotreload: 0.172ms
-	FixTempGuids: 0.002ms
+	Hotreload: 0.169ms
+	FixTempGuids: 0.003ms
 	VerifyGuidPMRegistrations: 0.000ms
 	GatherAllCurrentPrimaryArtifactRevisions: 0.000ms
-	UnloadStreamsBegin: 0.271ms
-	LoadedImportedAssetsSnapshotReleaseGCHandles: 0.005ms
-	GetLoadedSourceAssetsSnapshot: 0.212ms
+	UnloadStreamsBegin: 0.270ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 0.004ms
+	GetLoadedSourceAssetsSnapshot: 0.224ms
 	PersistCurrentRevisions: 0.000ms
-	UnloadStreamsEnd: 5.169ms
-	GenerateScriptTypeHashes: 0.179ms
-	Untracked: 0.364ms
-Refresh completed in 0.052603 seconds.
+	UnloadStreamsEnd: 5.165ms
+	GenerateScriptTypeHashes: 0.222ms
+	Untracked: 0.348ms
+Refresh completed in 0.051997 seconds.
 RefreshInfo: RefreshV2(ForceSynchronousImport)
-RefreshProfiler: Total: 52.599ms
-	InvokeBeforeRefreshCallbacks: 0.163ms
+RefreshProfiler: Total: 51.992ms
+	InvokeBeforeRefreshCallbacks: 0.158ms
 	ApplyChangesToAssetFolders: 0.053ms
 	WriteModifiedImportersToTextMetaFiles: 0.000ms
 	CleanLegacyArtifacts: 0.000ms
-	Scan: 18.854ms
+	Scan: 18.813ms
 	OnSourceAssetsModified: 0.000ms
 	UnregisterDeletedAssets: 0.000ms
-	InitializeImportedAssetsSnapshot: 3.225ms
-	GetAllGuidsForCategorization: 0.120ms
-	CategorizeAssets: 25.957ms
-	ImportAndPostprocessOutOfDateAssets: 2.426ms (0.823ms without children)
+	InitializeImportedAssetsSnapshot: 3.427ms
+	GetAllGuidsForCategorization: 0.112ms
+	CategorizeAssets: 25.194ms
+	ImportAndPostprocessOutOfDateAssets: 2.447ms (0.819ms without children)
 		ImportManagerImport: 0.000ms (0.000ms without children)
 			ImportInProcess: 0.000ms
 			ImportOutOfProcess: 0.000ms
@@ -266,39 +266,39 @@ RefreshProfiler: Total: 52.599ms
 				RemoteAssetCacheResolve: 0.000ms
 				RemoteAssetCacheDownloadFile: 0.000ms
 		CompileScripts: 0.000ms
-		PostProcessAllAssets: 0.001ms
+		PostProcessAllAssets: 0.000ms
 		ReloadImportedAssets: 0.000ms
 		VerifyAssetsAreUpToDateAndCorrect: 0.000ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.182ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.177ms
 		InitializingProgressBar: 0.000ms
-		PostProcessAllAssetNotificationsAddChangedAssets: 0.078ms
-		OnDemandSchedulerStart: 0.357ms
-		RestoreLoadedAssetsState: 0.985ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.076ms
+		OnDemandSchedulerStart: 0.366ms
+		RestoreLoadedAssetsState: 1.008ms
 	InvokeProjectHasChanged: 0.000ms
 	UpdateImportedAssetsSnapshot: 0.000ms
-	ReloadSourceAssets: 0.359ms
-	UnloadImportedAssets: 0.055ms
-	Hotreload: 0.010ms
+	ReloadSourceAssets: 0.361ms
+	UnloadImportedAssets: 0.052ms
+	Hotreload: 0.013ms
 	FixTempGuids: 0.002ms
 	VerifyGuidPMRegistrations: 0.000ms
 	GatherAllCurrentPrimaryArtifactRevisions: 0.171ms
-	UnloadStreamsBegin: 0.008ms
-	LoadedImportedAssetsSnapshotReleaseGCHandles: 0.362ms
-	GetLoadedSourceAssetsSnapshot: 1.416ms
+	UnloadStreamsBegin: 0.007ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 0.361ms
+	GetLoadedSourceAssetsSnapshot: 1.445ms
 	PersistCurrentRevisions: 0.000ms
 	UnloadStreamsEnd: 0.008ms
-	GenerateScriptTypeHashes: 0.188ms
-	Untracked: -0.589ms
+	GenerateScriptTypeHashes: 0.173ms
+	Untracked: -0.631ms
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport)
-RefreshProfiler: Total: 4.560ms
-	InvokeBeforeRefreshCallbacks: 0.139ms
-	ApplyChangesToAssetFolders: 0.051ms
+RefreshProfiler: Total: 4.597ms
+	InvokeBeforeRefreshCallbacks: 0.141ms
+	ApplyChangesToAssetFolders: 0.052ms
 	WriteModifiedImportersToTextMetaFiles: 0.000ms
 	CleanLegacyArtifacts: 0.000ms
 	Scan: 1.096ms
 	OnSourceAssetsModified: 0.000ms
 	UnregisterDeletedAssets: 0.000ms
-	InitializeImportedAssetsSnapshot: 1.832ms
+	InitializeImportedAssetsSnapshot: 1.856ms
 	GetAllGuidsForCategorization: 0.000ms
 	CategorizeAssets: 0.000ms
 	ImportAndPostprocessOutOfDateAssets: 0.000ms (0.000ms without children)
@@ -325,28 +325,28 @@ RefreshProfiler: Total: 4.560ms
 	Hotreload: 0.009ms
 	FixTempGuids: 0.002ms
 	VerifyGuidPMRegistrations: 0.000ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.164ms
-	UnloadStreamsBegin: 0.043ms
-	LoadedImportedAssetsSnapshotReleaseGCHandles: 0.345ms
-	GetLoadedSourceAssetsSnapshot: 0.384ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.166ms
+	UnloadStreamsBegin: 0.045ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 0.349ms
+	GetLoadedSourceAssetsSnapshot: 0.390ms
 	PersistCurrentRevisions: 0.000ms
 	UnloadStreamsEnd: 0.007ms
 	GenerateScriptTypeHashes: 0.000ms
-	Untracked: 0.488ms
-Refresh completed in 0.050015 seconds.
+	Untracked: 0.486ms
+Refresh completed in 0.052309 seconds.
 RefreshInfo: RefreshV2(NoUpdateAssetOptions)
-RefreshProfiler: Total: 50.009ms
+RefreshProfiler: Total: 52.304ms
 	InvokeBeforeRefreshCallbacks: 0.000ms
-	ApplyChangesToAssetFolders: 0.051ms
+	ApplyChangesToAssetFolders: 0.052ms
 	WriteModifiedImportersToTextMetaFiles: 0.000ms
 	CleanLegacyArtifacts: 0.000ms
-	Scan: 18.593ms
-	OnSourceAssetsModified: 0.000ms
+	Scan: 18.562ms
+	OnSourceAssetsModified: 0.001ms
 	UnregisterDeletedAssets: 0.000ms
-	InitializeImportedAssetsSnapshot: 2.211ms
-	GetAllGuidsForCategorization: 0.075ms
-	CategorizeAssets: 25.351ms
-	ImportAndPostprocessOutOfDateAssets: 1.839ms (0.416ms without children)
+	InitializeImportedAssetsSnapshot: 2.219ms
+	GetAllGuidsForCategorization: 0.123ms
+	CategorizeAssets: 27.492ms
+	ImportAndPostprocessOutOfDateAssets: 1.848ms (0.409ms without children)
 		ImportManagerImport: 0.000ms (0.000ms without children)
 			ImportInProcess: 0.000ms
 			ImportOutOfProcess: 0.000ms
@@ -355,37 +355,37 @@ RefreshProfiler: Total: 50.009ms
 				RemoteAssetCacheResolve: 0.000ms
 				RemoteAssetCacheDownloadFile: 0.000ms
 		CompileScripts: 0.000ms
-		PostProcessAllAssets: 0.000ms
+		PostProcessAllAssets: 0.001ms
 		ReloadImportedAssets: 0.000ms
 		VerifyAssetsAreUpToDateAndCorrect: 0.000ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.184ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.179ms
 		InitializingProgressBar: 0.000ms
-		PostProcessAllAssetNotificationsAddChangedAssets: 0.078ms
-		OnDemandSchedulerStart: 0.127ms
-		RestoreLoadedAssetsState: 1.034ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.076ms
+		OnDemandSchedulerStart: 0.129ms
+		RestoreLoadedAssetsState: 1.054ms
 	InvokeProjectHasChanged: 0.000ms
 	UpdateImportedAssetsSnapshot: 0.000ms
-	ReloadSourceAssets: 0.408ms
+	ReloadSourceAssets: 0.400ms
 	UnloadImportedAssets: 0.055ms
-	Hotreload: 0.038ms
+	Hotreload: 0.039ms
 	FixTempGuids: 0.002ms
 	VerifyGuidPMRegistrations: 0.000ms
-	GatherAllCurrentPrimaryArtifactRevisions: 0.174ms
-	UnloadStreamsBegin: 0.025ms
-	LoadedImportedAssetsSnapshotReleaseGCHandles: 0.372ms
-	GetLoadedSourceAssetsSnapshot: 1.444ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.178ms
+	UnloadStreamsBegin: 0.026ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 0.374ms
+	GetLoadedSourceAssetsSnapshot: 1.462ms
 	PersistCurrentRevisions: 0.000ms
-	UnloadStreamsEnd: 0.007ms
+	UnloadStreamsEnd: 0.008ms
 	GenerateScriptTypeHashes: 0.000ms
-	Untracked: -0.638ms
+	Untracked: -0.538ms
 Initializing Unity extensions:
  '/Applications/Unity/Hub/Editor/2019.4.33f1/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll'  GUID: 4ba2329b63d54f0187bcaa12486b1b0f
 Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 109.6 MB.
-System memory in use after: 108.8 MB.
+System memory in use before: 109.5 MB.
+System memory in use after: 108.7 MB.
 
 Unloading 110 unused Assets to reduce memory usage. Loaded Objects now: 1722.
-Total: 2.844860 ms (FindLiveObjects: 0.216590 ms CreateObjectMapping: 0.058851 ms MarkObjects: 1.729517 ms  DeleteObjects: 0.839188 ms)
+Total: 2.862483 ms (FindLiveObjects: 0.218431 ms CreateObjectMapping: 0.058533 ms MarkObjects: 1.736248 ms  DeleteObjects: 0.848577 ms)
 
 Done updating editor related project settings for publish
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
@@ -398,36 +398,36 @@ ImportZCV:UpdateProjectSettings () (at Assets/editor/ImportZCV.cs:38)
 (Filename: /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs Line: 37)
 
 Batchmode quit successfully invoked - shutting down!
-[Performance] Application.InitializeProject                               :        1 samples, Peak.  4.59 s (1.0x), Avg.  4.59 s, Total. 4.591 s (79.9%)
-[Performance] Application.PackageManager.StartServer                      :        1 samples, Peak.  1.68 ms (1.0x), Avg.  1.68 ms, Total. 1.678 ms (0.0%)
-[Performance] Application.IsBrowserCacheEmpty                             :        1 samples, Peak.  47.4 us (1.0x), Avg.  47.4 us, Total. 47.43 us (0.0%)
-[Performance] Application.AcquireProjectLock                              :        1 samples, Peak.   961 us (1.0x), Avg.   961 us, Total. 960.7 us (0.0%)
-[Performance] Application.InitializeEngineNoGraphics                      :        1 samples, Peak.  39.3 ms (1.0x), Avg.  39.3 ms, Total. 39.30 ms (0.7%)
-[Performance] Application.PackageManager.Initialize                       :        1 samples, Peak.   622 ms (1.0x), Avg.   622 ms, Total. 621.6 ms (10.8%)
-[Performance] CurlRequestCheck                                            :        8 samples, Peak.  97.2 us (3.1x), Avg.  31.5 us, Total. 252.3 us (0.0%)
-[Performance] PackageManager::RunRequestSynchronously                     :        8 samples, Peak.   307 us (6.8x), Avg.  44.9 us, Total. 359.4 us (0.0%)
-[Performance] Application.EngineGraphics.Initialize                       :        1 samples, Peak.  34.7 ms (1.0x), Avg.  34.7 ms, Total. 34.71 ms (0.6%)
-[Performance] Application.GI.Initialize                                   :        1 samples, Peak.   372 us (1.0x), Avg.   372 us, Total. 372.1 us (0.0%)
-[Performance] Application.LoadAllDefaultResourcesFromEditor               :        1 samples, Peak.  2.67 ms (1.0x), Avg.  2.67 ms, Total. 2.670 ms (0.0%)
-[Performance] Application.LoadMonoAssemblies                              :        1 samples, Peak.  1.58 s (1.0x), Avg.  1.58 s, Total. 1.578 s (27.5%)
-[Performance] RestoreManagedReferences                                    :        2 samples, Peak.  4.05 ms (2.0x), Avg.  2.03 ms, Total. 4.050 ms (0.1%)
-[Performance] ProcessService.EditorAfterLoadAllAssemblies                 :        2 samples, Peak.  44.1 ms (1.2x), Avg.  36.9 ms, Total. 73.71 ms (1.3%)
-[Performance] Application.ReadLicenseInfo                                 :        1 samples, Peak.  12.4 ms (1.0x), Avg.  12.4 ms, Total. 12.40 ms (0.2%)
-[Performance] Application.InitialScriptRefresh                            :        1 samples, Peak.  1.33 s (1.0x), Avg.  1.33 s, Total. 1.327 s (23.1%)
-[Performance] Application.AssetDatabase.Refresh                           :        1 samples, Peak.  52.7 ms (1.0x), Avg.  52.7 ms, Total. 52.66 ms (0.9%)
-[Performance] Application.ImportAssetsWithMismatchingAssetImporterVersion :        1 samples, Peak.  68.6 ms (1.0x), Avg.  68.6 ms, Total. 68.57 ms (1.2%)
+[Performance] Application.InitializeProject                               :        1 samples, Peak.  4.63 s (1.0x), Avg.  4.63 s, Total. 4.626 s (81.3%)
+[Performance] Application.PackageManager.StartServer                      :        1 samples, Peak.  1.66 ms (1.0x), Avg.  1.66 ms, Total. 1.656 ms (0.0%)
+[Performance] Application.IsBrowserCacheEmpty                             :        1 samples, Peak.  46.1 us (1.0x), Avg.  46.1 us, Total. 46.14 us (0.0%)
+[Performance] Application.AcquireProjectLock                              :        1 samples, Peak.   995 us (1.0x), Avg.   995 us, Total. 994.9 us (0.0%)
+[Performance] Application.InitializeEngineNoGraphics                      :        1 samples, Peak.  39.4 ms (1.0x), Avg.  39.4 ms, Total. 39.44 ms (0.7%)
+[Performance] Application.PackageManager.Initialize                       :        1 samples, Peak.   630 ms (1.0x), Avg.   630 ms, Total. 630.0 ms (11.1%)
+[Performance] CurlRequestCheck                                            :        8 samples, Peak.  55.3 us (1.8x), Avg.  30.3 us, Total. 242.2 us (0.0%)
+[Performance] PackageManager::RunRequestSynchronously                     :        7 samples, Peak.   277 us (6.1x), Avg.  45.7 us, Total. 320.2 us (0.0%)
+[Performance] Application.EngineGraphics.Initialize                       :        1 samples, Peak.  34.6 ms (1.0x), Avg.  34.6 ms, Total. 34.56 ms (0.6%)
+[Performance] Application.GI.Initialize                                   :        1 samples, Peak.   399 us (1.0x), Avg.   399 us, Total. 398.9 us (0.0%)
+[Performance] Application.LoadAllDefaultResourcesFromEditor               :        1 samples, Peak.  2.59 ms (1.0x), Avg.  2.59 ms, Total. 2.588 ms (0.0%)
+[Performance] Application.LoadMonoAssemblies                              :        1 samples, Peak.  1.57 s (1.0x), Avg.  1.57 s, Total. 1.574 s (27.7%)
+[Performance] RestoreManagedReferences                                    :        2 samples, Peak.  4.04 ms (2.0x), Avg.  2.02 ms, Total. 4.039 ms (0.1%)
+[Performance] ProcessService.EditorAfterLoadAllAssemblies                 :        2 samples, Peak.  44.2 ms (1.2x), Avg.  36.7 ms, Total. 73.42 ms (1.3%)
+[Performance] Application.ReadLicenseInfo                                 :        1 samples, Peak.  12.4 ms (1.0x), Avg.  12.4 ms, Total. 12.39 ms (0.2%)
+[Performance] Application.InitialScriptRefresh                            :        1 samples, Peak.  1.33 s (1.0x), Avg.  1.33 s, Total. 1.326 s (23.3%)
+[Performance] Application.AssetDatabase.Refresh                           :        1 samples, Peak.  52.0 ms (1.0x), Avg.  52.0 ms, Total. 52.05 ms (0.9%)
+[Performance] Application.ImportAssetsWithMismatchingAssetImporterVersion :        1 samples, Peak.  71.0 ms (1.0x), Avg.  71.0 ms, Total. 71.01 ms (1.2%)
 [Performance] Application.SyncCurrentColorSpace                           :        1 samples, Peak.  5.05 ms (1.0x), Avg.  5.05 ms, Total. 5.047 ms (0.1%)
-[Performance] Application.OnUsbDevicesChanged                             :        1 samples, Peak.   363 us (1.0x), Avg.   363 us, Total. 363.3 us (0.0%)
-[Performance] Application.AssetInstanceCacheUpdate                        :        1 samples, Peak.   142 ns (1.0x), Avg.   142 ns, Total. 142.0 ns (0.0%)
-[Performance] Application.UnityExtensions.Initialize                      :        1 samples, Peak.   701 us (1.0x), Avg.   701 us, Total. 701.3 us (0.0%)
-[Performance] Application.InitializeManagedCompilationPipeline            :        1 samples, Peak.  30.5 ms (1.0x), Avg.  30.5 ms, Total. 30.49 ms (0.5%)
-[Performance] Application.ExecuteStartups                                 :        1 samples, Peak.  23.6 ms (1.0x), Avg.  23.6 ms, Total. 23.63 ms (0.4%)
-[Performance] Application.RebuildOSMenu                                   :        1 samples, Peak.  47.8 ms (1.0x), Avg.  47.8 ms, Total. 47.83 ms (0.8%)
-[Performance] UpdateAllMenus                                              :        1 samples, Peak.  47.8 ms (1.0x), Avg.  47.8 ms, Total. 47.82 ms (0.8%)
-[Performance] Application.editorInitializingProject                       :        1 samples, Peak.  13.5 us (1.0x), Avg.  13.5 us, Total. 13.46 us (0.0%)
-[Performance] GUIView.RepaintAll.PlayerLoopController                     :        1 samples, Peak.   232 ns (1.0x), Avg.   232 ns, Total. 232.0 ns (0.0%)
-[Performance] Application.InvokeFinishedLoadingProject                    :        1 samples, Peak.  45.6 ms (1.0x), Avg.  45.6 ms, Total. 45.64 ms (0.8%)
-[Performance] ProcessService.OnProjectLoaded                              :        1 samples, Peak.  43.5 ms (1.0x), Avg.  43.5 ms, Total. 43.54 ms (0.8%)
+[Performance] Application.OnUsbDevicesChanged                             :        1 samples, Peak.   368 us (1.0x), Avg.   368 us, Total. 367.5 us (0.0%)
+[Performance] Application.AssetInstanceCacheUpdate                        :        1 samples, Peak.   191 ns (1.0x), Avg.   191 ns, Total. 191.0 ns (0.0%)
+[Performance] Application.UnityExtensions.Initialize                      :        1 samples, Peak.   704 us (1.0x), Avg.   704 us, Total. 704.1 us (0.0%)
+[Performance] Application.InitializeManagedCompilationPipeline            :        1 samples, Peak.  31.3 ms (1.0x), Avg.  31.3 ms, Total. 31.30 ms (0.6%)
+[Performance] Application.ExecuteStartups                                 :        1 samples, Peak.  23.8 ms (1.0x), Avg.  23.8 ms, Total. 23.78 ms (0.4%)
+[Performance] Application.RebuildOSMenu                                   :        1 samples, Peak.  48.3 ms (1.0x), Avg.  48.3 ms, Total. 48.29 ms (0.8%)
+[Performance] UpdateAllMenus                                              :        1 samples, Peak.  48.3 ms (1.0x), Avg.  48.3 ms, Total. 48.29 ms (0.8%)
+[Performance] Application.editorInitializingProject                       :        1 samples, Peak.  12.9 us (1.0x), Avg.  12.9 us, Total. 12.88 us (0.0%)
+[Performance] GUIView.RepaintAll.PlayerLoopController                     :        1 samples, Peak.   142 ns (1.0x), Avg.   142 ns, Total. 142.0 ns (0.0%)
+[Performance] Application.InvokeFinishedLoadingProject                    :        1 samples, Peak.  45.8 ms (1.0x), Avg.  45.8 ms, Total. 45.75 ms (0.8%)
+[Performance] ProcessService.OnProjectLoaded                              :        1 samples, Peak.  43.6 ms (1.0x), Avg.  43.6 ms, Total. 43.64 ms (0.8%)
 Cleanup mono
 debugger-agent: Unable to listen on 42
 [usbmuxd] Stop listen thread
